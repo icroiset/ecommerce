@@ -1,0 +1,110 @@
+main{
+  text-align: center;
+}
+
+/* Navbar*/
+
+.site-header {
+ background-color: rgba(255, 191, 232, .85);
+ -webkit-backdrop-filter: saturate(180%) blur(20px);
+ backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+ color: #fff;
+ transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+ color: #999;
+ text-decoration: none;
+}
+
+{
+
+}
+/* carousel */
+
+.carousel-inner{
+  height: 600px;
+}
+
+
+.aboutUs {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.aboutUs img{
+  height: 50px;
+}
+
+.shopBtn{
+  background-color: #FFBFE8;
+  width:40px;
+  height: 14px;
+  color: white;
+}
+
+/*Products*/
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+#quantity{
+  width: 30px;
+}
+
+.checkout{
+  margin: 30px auto;
+  color: white;
+  background-color: #FFBFE8;
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+/*Cart*/
+
+.cart .row {
+  margin: 50px auto;
+}
+
+.cart .col-md-4{
+  margin: 0 auto;
+}
+
+
+.cart .quantity button{
+  height: 20px;
+  width: 15px;
+  text-align: center;
+  padding: 0;
+}
+
+.cart .quantity{
+  font-size: 10px;
+  margin-top: 5px;
+}

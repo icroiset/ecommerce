@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SHOP l House Marquel Maq</title>
+
+    <!-- Bootstrap CSS-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="site-header sticky-top py-1">
+     <div class="container d-flex flex-column flex-md-row justify-content-between">
+       <a class="py-2" href="#">
+         <img src="images/logo.svg" width="24" height="24" viewBox="0 0 24 24">
+         <p>HOUSE MARQUEL MAQ</p>
+       </a>
+       <a class="py-2 d-none d-md-inline-block" href="#">About Us</a>
+       <a class="py-2 d-none d-md-inline-block" href="shop.html">Shop</a>
+       <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+     </div>
+    </nav>
+
+    <main>
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">House Marquel Maq</h1>
+          <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="images/product1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3>Strawberry Macaroon</h3>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5>$2.59</h5>
+                  <br>
+
+                  <div class="quantity">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" id="1" onclick="minus(this.id)">-</button>
+                    <input type="number" value="0" id="quantity" min=0 class="cartNumber"/>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" id="2" onclick="addToCart(this.id)">+</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="images/product1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3>Strawberry Macaroon</h3>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5>$2.59</h5>
+                  <br>
+
+                  <div class="quantity">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="minus()">-</button>
+                    <input type="number" value="0" id="quantity" min=0/>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="addToCart()">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="images/product1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3>Strawberry Macaroon</h3>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5>$2.59</h5>
+                  <br>
+
+                  <div class="quantity">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="minus()">-</button>
+                    <input type="number" value="0" id="quantity" min=0/>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="addToCart()">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="images/product1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3>Strawberry Macaroon</h3>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5>$2.59</h5>
+                  <br>
+
+                  <div class="quantity">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="minus()">-</button>
+                    <input type="number" value="0" id="quantity" min=0/>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="addToCart()">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="images/product1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3>Strawberry Macaroon</h3>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5>$2.59</h5>
+                  <br>
+
+                  <div class="quantity">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="minus()">-</button>
+                    <input type="number" value="0" id="quantity" min=0/>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="addToCart()">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="images/product1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h3>Strawberry Macaroon</h3>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5>$2.59</h5>
+                  <br>
+
+                  <div class="quantity">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="minus()">-</button>
+                    <input type="number" value="0" id="quantity" min=0/>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="addToCart()">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="checkout" onclick="location.href = 'cart.html' ">CHECKOUT</button>
+      </div>
+
+    </main>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- custom js -->
+     <script src="js/script.js"></script>
+
+  </body>
+</html>
